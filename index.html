@@ -6,110 +6,55 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
-    <!-- Link para a Folha de Estilo da Página - CSS -->
-    <link rel="stylesheet" href="./assets/img/style.css">
-
 <body>
-    <!-- Cabeçalho da Página (header) -->
-		<header>
-             <!-- Div Conteudo do Cabeçalho -->
-             <div id="header_content" class="flex">
-                <!-- Titulo do Cabeçalho -->
-                <div id="titulo">
-                    <!--Seu Nome-->
-                    <h1>Generation Brasil</h1>
-
-                </div>
-
-                 <!-- Conteudo do Menu da Página (header) -->
-                <div id="menu">
-                  <!-- Menu da Página -->
-                      <nav>
-
-       <!-- Marcadores não ordenados+ links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html"> Home </a>
-							</li>
-							<li>
-								<a href="contato.html"> Contato </a>
-							</li>
-						</ul>
-
-					</nav>
-               
-
-                </div>
+    <!-- Cabeçalho da Página -->
+    <header>
+        <div id="header_content" class="flex">
+            <div id="titulo">
+                <h1>Generation Brasil</h1>
             </div>
-            
-        </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-		<!-- Seção Principal da Página (main) -->
-		<main>
-            <!--Seção Sobre você-->
-            <section id="about" class="flex_start">
-                <!-- Titulo da Seção-->
-                 <div id="Conteudo" class="flex">
-                    <!--Imagem do criador do contéudo-->
-                    <img 
-                    src="./assets/img/foto.jpeg" 
-                     alt="Foto do Criador desse conteudo" 
-                     width="150" 
-                     height="150"
+    <!-- Seção Principal -->
+    <main>
+        <!-- Seção Sobre -->
+        <section id="about" class="flex_start">
+            <div id="conteudo" class="flex">
+                <img src="./assets/img/foto.jpeg" alt="Foto do Criador desse conteúdo" width="150" height="150" class="img_profile">
+                <article id="sobre_texto">
+                    <p>Olá, sou formada em Pedagogia e atualmente estou cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas. Após anos de experiência na área educacional, decidi fazer uma transição de carreira para a área de TI, motivada pela minha paixão por tecnologia e pela busca de novos desafios.</p>
+                </article>
+            </div>
+        </section>
 
-                     class="img_profile"         
-                     >
+        <!-- Seção de Vídeo -->
+        <section id="video" class="flex_start">
+            <h1>Meu Vídeo Favorito</h1>
+            <div id="youtube" class="flex">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NO5RIXpCtI8?si=vnKvfk5SUtpPt6K7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
 
-                    
-                    <!--Texto sobre o cruador do conteúdo-->
-                    <article id="Sobre_texto">
-                        <p>
-
-                            Olá, sou formada em Pedagogia e atualmente estou cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas. Após anos de experiência na área educacional, decidi fazer uma transição de carreira para a área de T.I, motivada pela minha paixão por tecnologia e pela busca de novos desafios.
-                        </p>
-                    </article>
-            </section>
-
-            <!-- Seção contendo um vídeo de sua preferência-->
-             <section id="Video" class="flex_start">
-                <!--Titulo da Seção-->
-                <h1> Meu Vídeo favorito</h1>
-                <div id="youtube" class="flex">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NO5RIXpCtI8?si=vnKvfk5SUtpPt6K7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-             </section>
-
-    
-        </main>
-
-		<!-- Rodapé da Página (footer) -->
-		<footer class="flex">
-
-            <!-- Seção de Contato - Redes Sociais-->
-            <section id="redes_sociais">
-                <a href="https://www.linkedin.com/in/rosilene-fariasdomingues/ ">
-                    <img src="assets/img/linkedin.svg" alt="Linkedin">
-                </a>    
-                <a href="https://github.com/Rosifaarias">
-                    <img src="assets/img/github.svg" alt="Github">
-                </a>
-                <a href=" ">
-                    <img src="assets/img/instagram.svg" alt="Instagram">
-                </a>
-
-                </section>
-
-                <h3>
-                    <h3>Feito com 🧡 por Rosilene Farias - 2025</h3>
-
-                </h3>
-
-        </footer>
-        
-
-
-    
+    <!-- Rodapé -->
+    <footer class="flex">
+        <section id="redes_sociais">
+            <a href="https://www.linkedin.com/in/rosilene-fariasdomingues/"><img src="assets/img/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/Rosifaarias"><img src="assets/img/github.svg" alt="GitHub"></a>
+            <a href="#"><img src="assets/img/instagram.svg" alt="Instagram"></a>
+        </section>
+        <h3>Feito com 🧡 por Rosilene Farias - 2025</h3>
+    </footer>
 </body>
 </html>
