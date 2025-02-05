@@ -9,11 +9,14 @@
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
     <title>Meu Perfil</title>
 </head>
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/img/style.css">
+
 <body>
     <!-- Cabeçalho da Página (header) -->
 		<header>
              <!-- Div Conteudo do Cabeçalho -->
-             <div id="header_content">
+             <div id="header_content" class="flex">
                 <!-- Titulo do Cabeçalho -->
                 <div id="titulo">
                     <!--Seu Nome-->
@@ -47,30 +50,34 @@
 		<!-- Seção Principal da Página (main) -->
 		<main>
             <!--Seção Sobre você-->
-            <section id="about">
+            <section id="about" class="flex_start">
                 <!-- Titulo da Seção-->
-                 <div id="Conteudo">
+                 <div id="Conteudo" class="flex">
                     <!--Imagem do criador do contéudo-->
                     <img 
                     src="./assets/img/foto.jpeg" 
                      alt="Foto do Criador desse conteudo" 
                      width="150" 
-                     height="150">
-                    />
+                     height="150"
+
+                     class="img_profile"         
+                     >
+
+                    
                     <!--Texto sobre o cruador do conteúdo-->
                     <article id="Sobre_texto">
                         <p>
 
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quos, exercitationem nemo, quas, tenetur neque suscipit cum quod nobis voluptas rem qui. Cum consequatur earum voluptates dolorum veritatis facere sint.
+                            Olá, sou formada em Pedagogia e atualmente estou cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas. Após anos de experiência na área educacional, decidi fazer uma transição de carreira para a área de T.I, motivada pela minha paixão por tecnologia e pela busca de novos desafios.
                         </p>
                     </article>
             </section>
 
             <!-- Seção contendo um vídeo de sua preferência-->
-             <section id="Video">
+             <section id="Video" class="flex_start">
                 <!--Titulo da Seção-->
                 <h1> Meu Vídeo favorito</h1>
-                <div id="youtube">
+                <div id="youtube" class="flex">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NO5RIXpCtI8?si=vnKvfk5SUtpPt6K7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </section>
 
@@ -78,7 +85,7 @@
         </main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
             <!-- Seção de Contato - Redes Sociais-->
             <section id="redes_sociais">
@@ -95,7 +102,7 @@
                 </section>
 
                 <h3>
-                    Feito com ♥ por Rosilene Farias - 2025
+                    <h3>Feito com 🧡 por Rosilene Farias - 2025</h3>
 
                 </h3>
 
